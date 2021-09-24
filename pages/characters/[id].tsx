@@ -11,7 +11,6 @@ function SingleCharacterPage({ query }) {
       id,
     },
   });
-
   return <div>{JSON.stringify(data)}</div>;
 }
 
